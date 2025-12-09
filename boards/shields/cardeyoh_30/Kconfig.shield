@@ -1,0 +1,5 @@
+config SHIELD_CARDEYOH_30_LEFT
+    def_bool $(shields_list_contains,cardeyoh_30_left)
+
+config SHIELD_CARDEYOH_30_RIGHT
+    def_bool $(shields_list_contains,cardeyoh_30_right)

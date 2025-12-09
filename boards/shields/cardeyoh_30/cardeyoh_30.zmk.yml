@@ -1,0 +1,13 @@
+file_format: "1"
+id: "cardeyoh_30"
+name: "Cardey-oh 30"
+type: shield
+url: https://github.com/Noxbuds/keyboard-v3
+requires:
+  - seeeduino_xiao_ble
+exposes: []
+features:
+  - keys
+siblings:
+  - cardeyoh_30_left
+  - cardeyoh_30_right

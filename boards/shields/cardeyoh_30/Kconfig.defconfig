@@ -1,0 +1,15 @@
+if SHIELD_CARDEYOH_30_LEFT
+
+    config ZMK_KEYBOARD_NAME
+        default "Cardey-oh 30"
+
+    config ZMK_SPLIT_ROLE_CENTRAL
+        default y
+
+endif
+
+if SHIELD_CARDEYOH_30_LEFT || SHIELD_CARDEYOH_30_RIGHT
+    config ZMK_SPLIT
+        default y
+
+endif
