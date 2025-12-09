@@ -23,3 +23,5 @@ include:
     shield: cardeyoh_30_left
   - board: seeeduino_xiao_ble
     shield: cardeyoh_30_right
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
