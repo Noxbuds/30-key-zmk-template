@@ -41,31 +41,27 @@
 //             |mo1|bsp|    |ent|spc|
             bindings = <
 
-&kp W  &kp F  &kp P      &kp L  &kp U  &kp Y
+&mt LGUI A &kp W &kp F &kp P &kp G    &kp M &kp L &kp U &kp Y &mt RGUI O
 
-&mt LGUI A  &mt LALT R  &mt LCTL S  &mt LSHIFT T  &kp G      &kp M  &mt LSHIFT N  &mt RCTL E  &mt RALT I  &mt RGUI O
-     
-&kp Z  &kp X  &kp C  &kp D &kp V  &kp K      &kp H  &kp COMMA  &kp DOT  &kp FSLH
+&kp Z &mt LALT R &mt LCTL S &mt LSHIFT T &kp V    &kp K &mt LSHIFT N &mt RCTL E &mt RALT I &kp FSLH
 
-&mo 1 &kp BSPC   &kp ENTER &kp SPACE
+&mo 1 &kp X &kp C &kp D &kp BSPC    &kp ENTER &kp H &kp COMMA &kp DOT &kp SPACE
 
             >;
         };
         
         num {
 //     | 2 | 3 | 4 |            | 7 | 8 | 9 |
-// | 1 | < | ^ | v | 5 |    | 6 | 5 | 6 | 7 | 0 |
+// | 1 | < | ^ | v | 5 |    | 6 | ' | - | = | 0 |
 // | Q |grv|nub|tab| > |    | [ | ] |nuh| . | ; |
 //             |   |   |    |   |   |
             bindings = <
 
-&kp N2  &kp N3  &kp N4      &kp L  &kp U  &kp Y
+&mt LGUI N1 &kp N2 &kp N3 &kp N4 &kp N5    &kp N6 &kp N7 &kp N8 &kp N9 &mt RGUI N0
 
-&mt LGUI N1  &mt LALT LEFT  &mt LCTL UP  &mt LSHIFT DOWN  &kp N5      &kp M  &mt LSHIFT N  &mt RCTL E  &mt RALT I  &mt RGUI O
-     
-&kp Q  &kp GRAVE  &kp NUBS  &kp TAB  &kp RIGHT      &kp LBKT  &kp RBKT  &kp NUHS  &kp DOT  &kp SEMI
+&kp Q &mt LALT LEFT &mt LCTL UP &mt LSHIFT DOWN &kp RIGHT    &kp LBKT &mt LSHIFT SINGLE_QUOTE &mt RCTL MINUS &mt RALT EQUAL &kp SEMI
 
-&mo 1 &kp BSPC   &kp ENTER &kp SPACE
+&mo 1 &kp GRAVE &kp NUBS &kp TAB &kp BSPC    &kp ENTER &kp RBKT &kp NUHS &kp DOT &kp SPACE
 
             >;
         };
