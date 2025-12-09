@@ -45,7 +45,7 @@
 
 &kp Z &mt LALT R &mt LCTL S &mt LSHIFT T &kp V    &kp K &mt LSHIFT N &mt RCTL E &mt RALT I &kp FSLH
 
-&mo 1 &kp X &kp C &kp D &kp BSPC    &kp ENTER &kp H &kp COMMA &kp DOT &kp SPACE
+&kp BSPC &kp X &kp C &kp D &mo 1    &kp SPACE &kp H &kp COMMA &kp DOT &kp ENTER
 
             >;
         };
@@ -61,7 +61,7 @@
 
 &kp Q &mt LALT LEFT &mt LCTL UP &mt LSHIFT DOWN &kp RIGHT    &kp LBKT &mt LSHIFT SINGLE_QUOTE &mt RCTL MINUS &mt RALT EQUAL &kp SEMI
 
-&mo 1 &kp GRAVE &kp NUBS &kp TAB &kp BSPC    &kp ENTER &kp RBKT &kp NUHS &kp DOT &kp SPACE
+&kp BSPC &kp GRAVE &kp NUBS &kp TAB &mo 1    &kp SPACE &kp RBKT &kp NUHS &kp DOT &kp ENTER
 
             >;
         };
